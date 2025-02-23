@@ -1,13 +1,12 @@
 # Running Instructions:
 
-Before running this code, - Download and Install the Node, react app, material ui, highcharts
+## Note: This project needs npm. Please install npm if npm has been not installed yet.
 
-## Step 1: Clone the Project from Github
+## Step 1: Clone this repository and change directory to the main folder.
 
-1.
-Git clone https://github.com/cpoonkodi/slider_puzzle.git
+1. git clone https://github.com/cpoonkodi/PC022025.git
 
-2. cd into the cloned folder
+2. cd PC022025
 
 ## Step 2: Install Dependencies
 
@@ -23,21 +22,9 @@ Git clone https://github.com/cpoonkodi/slider_puzzle.git
 * highcharts, highcharts-react-official → Charting library
 * fontawesome → icon
 
-### Run the Project
+### Run
 Start the development server: <br>
 npm start
-
-
-Your project should now be running with:
-- TypeScript
-- React Hook Form
-- React Router
-- MUI
-- Redux
-- Highcharts
-
-
-
 
 
 
