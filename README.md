@@ -53,16 +53,15 @@ The delete confirmation looks like this:
 
 ## Completed implementation
 
-- <input type="checkbox" checked style="accent-color:green;"> Sidebar
-
+&check
 + [x] Sidebar
-+ [ ] Home page
-+ [ ] Error page
-+ [ ] Display page
-+ [ ] Add
-+ [ ] Edit
-+ [ ] Delete
-+ [ ] Date range
++ [x] Home page
++ [x] Error page
++ [x] Display page
++ [x] Add
++ [x] Edit
++ [x] Delete
++ [x] Date range
 
 ## Things to implement yet:
 
