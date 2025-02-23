@@ -53,8 +53,6 @@ The delete confirmation looks like this:
 
 ## Completed implementation
 
-<span style="color:green;"> hello </span>
-
 - [&check;] Sidebar
 &check; Home page
 &check; Error page
