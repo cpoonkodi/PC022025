@@ -24,24 +24,24 @@ Git clone https://github.com/cpoonkodi/slider_puzzle.git
 > npm install react-hook-form react-router-dom @mui/material @emotion/react @emotion/styled @reduxjs/toolkit react-redux highcharts highcharts-react-official
 
 ### Installed Packages
-react-hook-form → Form handling
-react-router-dom → Routing
-@mui/material, @emotion/react, @emotion/styled → Material UI
-@reduxjs/toolkit, react-redux → Redux state management
-highcharts, highcharts-react-official → Charting library
+* react-hook-form → Form handling
+* react-router-dom → Routing
+* @mui/material, @emotion/react, @emotion/styled → Material UI
+* @reduxjs/toolkit, react-redux → Redux state management
+* highcharts, highcharts-react-official → Charting library
 
 ### Run the Project
-Start the development server:
+Start the development server: <br>
 npm start
 
 
 Your project should now be running with:
-TypeScript
-React Hook Form
-React Router
-MUI
-Redux
-Highcharts
+- TypeScript
+- React Hook Form
+- React Router
+- MUI
+- Redux
+- Highcharts
 
 
 
