@@ -53,15 +53,17 @@ The delete confirmation looks like this:
 
 ## Completed implementation
 
+<span style="color:green;"> hello </span>
+
 &check;
-+ [x] Sidebar
-+ [x] Home page
-+ [x] Error page
-+ [x] Display page
-+ [x] Add
-+ [x] Edit
-+ [x] Delete
-+ [x] Date range
+&check; Sidebar
+&check; Home page
+&check; Error page
+&check; Display page
+&check; Add
+&check; Edit
+&check; Delete
+&check; Date range
 
 ## Things to implement yet:
 
