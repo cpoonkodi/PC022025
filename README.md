@@ -53,7 +53,7 @@ The delete confirmation looks like this:
 
 ## Completed implementation
 
-+ [ ] Sidebar
++ [x] Sidebar
 + [ ] Home page
 + [ ] Error page
 + [ ] Display page
