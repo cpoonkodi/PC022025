@@ -51,8 +51,21 @@ The edit dialog looks like this:
 The delete confirmation looks like this:
 ![Delete chart](https://github.com/user-attachments/assets/970146e7-0cc2-4879-9a98-f7ffefdc051f)
 
+## Completed implementation
+
++ [ ] Sidebar
++ [ ] Home page
++ [ ] Error page
++ [ ] Display page
++ [ ] Add
++ [ ] Edit
++ [ ] Delete
++ [ ] Date range
+
 ## Things to implement yet:
+
 - [ ] Responsiveness
+    
 - [ ] Applying Redux
 
 
