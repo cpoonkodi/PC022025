@@ -52,8 +52,8 @@ The delete confirmation looks like this:
 ![Delete chart](https://github.com/user-attachments/assets/970146e7-0cc2-4879-9a98-f7ffefdc051f)
 
 ## Things to implement yet:
-+ [] Responsiveness
-- [] Applying Redux
+- [ ] Responsiveness
+- [ ] Applying Redux
 
 
 
