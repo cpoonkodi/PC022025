@@ -28,5 +28,5 @@ npm start
 
 ### Browser
 After running the above command, the default Internet browser will open and load the home page of this project.
-(./Screenshots/Home.png)
+!(./Screenshots/Home.png)
 
