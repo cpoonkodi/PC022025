@@ -55,8 +55,7 @@ The delete confirmation looks like this:
 
 <span style="color:green;"> hello </span>
 
-&check;
-&check; Sidebar
+- [&check;] Sidebar
 &check; Home page
 &check; Error page
 &check; Display page
