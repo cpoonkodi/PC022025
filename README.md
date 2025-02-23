@@ -53,14 +53,14 @@ The delete confirmation looks like this:
 
 ## Completed implementation
 
-- [&check;] Sidebar
-&check; Home page
-&check; Error page
-&check; Display page
-&check; Add
-&check; Edit
-&check; Delete
-&check; Date range
+- [x] Sidebar
+- [x] Home page
+- [x] Error page
+- [x] Display page
+- [x] Add
+- [x] Edit
+- [x] Delete
+- [x] Date range
 
 ## Things to implement yet:
 
