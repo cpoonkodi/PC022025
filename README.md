@@ -53,6 +53,8 @@ The delete confirmation looks like this:
 
 ## Completed implementation
 
+- <input type="checkbox" checked style="accent-color:green;"> Sidebar
+
 + [x] Sidebar
 + [ ] Home page
 + [ ] Error page
