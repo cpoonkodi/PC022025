@@ -10,9 +10,7 @@
 
 > npm install
 
-## Step 2: Install Dependencies
-
-### Step 2: Run
+### Step 3: Run
 Start the development server: <br>
 > npm start
 
