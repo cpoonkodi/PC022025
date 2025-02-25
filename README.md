@@ -53,8 +53,6 @@ The delete confirmation looks like this:
 ## Things to implement yet:
 
 - [ ] Responsiveness
-    
-- [ ] Applying Redux
 
 
 
