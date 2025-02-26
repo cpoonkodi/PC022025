@@ -36,6 +36,20 @@ export const AddChart = ({ show, onHide }: AddChartProps) => {
  	const [error, setError]=useState(false);
 	const [error1, setError1]=useState(false);
 
+   useEffect(() => {
+    if (show) {
+      setFormData({
+        chartname: '',
+        xaxisname: '',
+        yaxisname: '',
+        description: '',
+        chartTypename: 'line',
+        colorname: 'black',
+        sensorName: ''
+      });
+    }
+  }, [show]);
+
   // Combine all form states into one object 
   const [formData, setFormData] = useState({
     chartname: '',
@@ -72,15 +86,6 @@ export const AddChart = ({ show, onHide }: AddChartProps) => {
     return;
   }
 	dispatch(addChartToList(formData))
-	setFormData({
-        chartname: '',
-        xaxisname: '',
-        yaxisname: '',
-        description: '',
-        chartTypename: 'line',
-        colorname: 'black',
-        sensorName: '',
-      });
 	  onHide();
   };
   
