@@ -34,6 +34,7 @@ export const AddChart = ({ show, onHide }: AddChartProps) => {
 	const sensorData = useSelector((state: RootState) => state.charts.sensorData)
 	const dispatch = useDispatch<AppDispatch>();
  	const [error, setError]=useState(false);
+	const [error1, setError1]=useState(false);
 
   // Combine all form states into one object 
   const [formData, setFormData] = useState({
