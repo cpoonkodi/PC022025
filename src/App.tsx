@@ -7,7 +7,6 @@ import { useEffect } from 'react';
 import { addSensorData } from './slices/chartsSlice'
 import { useDispatch } from 'react-redux'
 import type { AppDispatch } from './store'
-import { ThemeProvider } from '@mui/material/styles';
 
 function App() {
 	const dispatch = useDispatch<AppDispatch>();
