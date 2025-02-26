@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { createTheme, ThemeProvider } from '@mui/material/styles'
 import { addChartToList } from '../slices/chartsSlice'
 import { useSelector, useDispatch } from 'react-redux'
