@@ -84,13 +84,24 @@ export const Sidebar = () => {
   };
 
   const handleDeleteConfirm = () => {
+    const index = chartsList.findIndex(chart => chart.id === chartForEditDelete.id);
+    let newSelectedChart = null;
+  
+    if (index !== -1) {
+      if (chartsList.length > 1) {
+        if (index > 0) {
+          newSelectedChart = chartsList[index - 1];
+        } else {
+          newSelectedChart = chartsList[index + 1];
+        }
+      }
+    }
     dispatch(removeChartFromList(chartForEditDelete));
     setMenuShow(false);
-    if (chartForEditDelete.id === selectedChart?.id){
-    dispatch(setSelectedChart(null))
-    }
     setDeleteShow(false);
+    dispatch(setSelectedChart(newSelectedChart));
   };
+  
 
   const deleteChart = () => {
     setDeleteShow(true)
