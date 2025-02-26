@@ -36,6 +36,7 @@ export const EditChart = ({ show, onHide, chartForEdit }: EditChartProps) => {
 	const { selectedChart } = useSelector((state:RootState) => state.charts);
 	const dispatch = useDispatch<AppDispatch>();
   	const [error, setError]=useState(false);
+	const [error1, setError1]=useState(false);
 
   // Combine all form states into one object 
   const [formData, setFormData] = useState<ChartProps>(chartForEdit)
@@ -56,6 +57,12 @@ export const EditChart = ({ show, onHide, chartForEdit }: EditChartProps) => {
 	  } else {
 		setError(false);
 	  }
+	   if (formData.sensorName.trim() === '') {
+      setError1(true);
+      return;
+      } else {
+      setError1(false);
+      }	
 	dispatch(updateChartInList(formData))
 	  onHide();
   };
@@ -121,6 +128,8 @@ export const EditChart = ({ show, onHide, chartForEdit }: EditChartProps) => {
               select
               size="small"
               required
+	      error={error1}
+              helperText={error1 ? "Required field" : ""}
               value={formData.sensorName}
               onChange={handleChange}>
                 {sensorData.map((sensor, index) => (
