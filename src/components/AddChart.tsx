@@ -13,7 +13,6 @@ import {
   TextField, 
   Button, 
   Stack } from '@mui/material'
-import { charts } from 'highcharts'
 
 const theme = createTheme({
   components: {
@@ -60,6 +59,12 @@ export const AddChart = ({ show, onHide }: AddChartProps) => {
 	  } else {
 		setError(false);
 	  }	
+    if (formData.sensorName.trim() === '') {
+      setError1(true);
+      return;
+      } else {
+      setError1(false);
+      }	
   const x = chartsList.find((chart)=>chart.chartname.toLowerCase() === formData.chartname.toLowerCase())
   if (x !== undefined){
     alert("Chartname already exists!" )
@@ -73,10 +78,9 @@ export const AddChart = ({ show, onHide }: AddChartProps) => {
         description: '',
         chartTypename: 'line',
         colorname: 'black',
-        sensorName: 'dataseries',
+        sensorName: '',
       });
 	  onHide();
-
   };
   
   return (
@@ -140,6 +144,8 @@ export const AddChart = ({ show, onHide }: AddChartProps) => {
               select
               size="small"
               required
+	      error={error1}
+              helperText={error1 ? "Required field" : ""}
               value={formData.sensorName}
               onChange={handleChange}>
                 {sensorData.map((sensor, index) => (
